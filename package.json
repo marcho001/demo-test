@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "'just test'",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcho001/demo-test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }
